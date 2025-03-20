@@ -3,5 +3,5 @@ resource "aws_eip" "lb" {
 }
 
 output "public_address" {
-  value = "http://${aws_eip.lb.public_ip}:8080
+  value = "http://${aws_eip.lb.public_ip}:8080"
 }
