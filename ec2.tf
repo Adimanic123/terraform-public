@@ -1,3 +1,4 @@
+/*
 provider "aws" {
   # Configuration options
 }
@@ -7,3 +8,4 @@ resource "aws_instance" "developer_3" {
   instance_type = "t2.micro"
 
 }
+*/
